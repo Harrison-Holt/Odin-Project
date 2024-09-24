@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open-Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+.background_image_title {
+    background-image: url('./background_image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    background-color: #fff;
+}
+
+.form input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form input:focus {
+    border-color: skyblue;
+    outline: none; /* Removes the default outline */
+}
+
+
+.form input {
+    border: solid 2px #D3D3D3;
+    margin-top: 10px;
+    background-color: #fff; 
+    margin-bottom: 5px; 
+}
+
+.form_container {
+    background-color: #F5F5F5;
+}
+
+#create_account_button {
+    background-color: #5E6D46;
+    color: #fff; 
+    border: none; 
+    border-radius: 5%;
+    padding: 15px; 
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat';
+}
+.header_text {
+    font-size: 22px;
+}
+.title_banner {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+img {
+    background-color: #F5F5F5; 
+}
+
+.title_banner h1 {
+    font-weight: bold; 
+    color: #fff; 
+    font-family: 'Caveat';
+    font-size: 100px;
+}
+
+h2 {
+    font-family: 'Open Sans';
+}
+a:hover {
+    color: #333333; 
+}
